@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.icon{
+  color: red;
+  font-size: 30px;
+}
+body{
+  background-color: rgb(15, 15, 15);
+}
+.grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: 5px;
+ height:530px;
+ width: 520px;
+}
+.box{
+width:169px;
+height: 95px;
+display: flex;
+border: 0;
+justify-content:center;
+align-items:center;
+}
+
+.turn{
+  color: aliceblue;
+  margin-bottom: 60px;
+}
+
+.hello{
+  background-color: rgb(15, 15, 15);
+  border: 0px;
+}
+
+
+.new{
+  background-color: rgb(194, 160, 96);
+  height:525px;
+  width: 515px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  border: 0;
+}
